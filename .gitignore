@@ -1,0 +1,26 @@
+src/*.exe
+src/shreeji
+src/shreejid
+src/test_shreeji
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.shreeji
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+shreeji-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
